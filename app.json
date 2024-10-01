@@ -1,7 +1,12 @@
 {
   "expo": {
+<<<<<<< HEAD
     "name": "my-first-screen",
     "slug": "my-first-screen",
+=======
+    "name": "my-first-react-native-project",
+    "slug": "my-first-react-native-project",
+>>>>>>> 9d5f3d0207572a91ae4b7a2bb5eb247fdf7ffee3
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
