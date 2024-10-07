@@ -1,14 +1,10 @@
 import { StatusBar } from 'expo-status-bar';
-<<<<<<< HEAD
+
 import { StyleSheet, Text, TextInput, TouchableOpacity, View } from 'react-native';
-=======
-import { StyleSheet, Text, View } from 'react-native';
->>>>>>> 9d5f3d0207572a91ae4b7a2bb5eb247fdf7ffee3
 
 export default function App() {
   return (
     <View style={styles.container}>
-<<<<<<< HEAD
       <Text style={styles.textos}>Digite seu nome</Text>
       <TextInput placeholder='Nome' style={styles.textinp}/>
       <Text style={styles.textos}>Digite sua data de nascimento</Text>
@@ -20,15 +16,12 @@ export default function App() {
       <Text style={styles.textos}>Digite seu telefone</Text>
       <TextInput placeholder='+55 XXX XXXXX-XXXX' style={styles.textinp} />
       <TouchableOpacity activeOpacity={0.7} style={styles.button}><Text style={styles.textos}>Enviar</Text></TouchableOpacity>
-=======
-      <Text>Hello world</Text>
->>>>>>> 9d5f3d0207572a91ae4b7a2bb5eb247fdf7ffee3
+
       <StatusBar style="auto" />
     </View>
   );
 }
 
-<<<<<<< HEAD
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -60,17 +53,3 @@ const styles = StyleSheet.create({
     width: 300,
   },
 });
-=======
-
-
-
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
->>>>>>> 9d5f3d0207572a91ae4b7a2bb5eb247fdf7ffee3
